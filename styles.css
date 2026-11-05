@@ -1,0 +1,98 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ffd79e;
+    color: #38251b;
+    font-family: Arial;
+    line-height: 1.6;
+}
+main, header, footer {
+    width: 90%;
+    max-width: none;
+    margin: 0 auto;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADINGS */
+h1{
+    font-family: Georgia;
+    font-size: 32px;
+}
+h2 {
+    font-family: Georgia;
+    font-size: 24px;
+}
+h3 {
+    font-family: Georgia;
+    font-size: 14px;
+}
+header {
+    font-family: Georgia;
+    text-align: center;
+}
+
+
+/* HYPERLINKS */
+nav {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 4px 4px;
+}
+nav ul {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap; 
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    display: inline-block;
+    padding: 4px;
+}
+
+/* HORIZONTAL LINES */
+.index-divider-top {
+    border: none;
+    border-top: 2px solid #050505;
+    width: 80%;
+    margin: 24px 0;
+}
+.index-divider-bottom {
+    border: none;
+    border-top: 2px solid #050505;
+    width: 80%;
+    margin: 24px 0;
+}
+
+/* WATERMARK */
+footer {
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+}
+
+/* CONTACT PAGE EDITS*/
+fieldset {
+    border: 2px solid black;
+}
+
+/* MOBILE RESPONSE */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+}
